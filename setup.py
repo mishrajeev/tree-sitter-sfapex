@@ -20,4 +20,5 @@ setup(
     ext_modules=[ext],
     packages=["tree_sitter_sfapex"],
     package_dir={"tree_sitter_sfapex": "bindings/python/tree_sitter_sfapex"},
+    package_data={"tree_sitter_sfapex": ["*.pyi", "py.typed"]},
 )
