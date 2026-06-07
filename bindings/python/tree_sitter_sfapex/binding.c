@@ -9,19 +9,19 @@ extern TSLanguage *tree_sitter_sosl(void);
 extern TSLanguage *tree_sitter_sflog(void);
 
 static PyObject *_binding_language_apex(PyObject *Py_UNUSED(self), PyObject *Py_UNUSED(args)) {
-    return PyCapsule_New(tree_sitter_apex(), "tree_sitter_apex.language", NULL);
+    return PyCapsule_New(tree_sitter_apex(), "tree_sitter.Language", NULL);
 }
 
 static PyObject *_binding_language_soql(PyObject *Py_UNUSED(self), PyObject *Py_UNUSED(args)) {
-    return PyCapsule_New(tree_sitter_soql(), "tree_sitter_soql.language", NULL);
+    return PyCapsule_New(tree_sitter_soql(), "tree_sitter.Language", NULL);
 }
 
 static PyObject *_binding_language_sosl(PyObject *Py_UNUSED(self), PyObject *Py_UNUSED(args)) {
-    return PyCapsule_New(tree_sitter_sosl(), "tree_sitter_sosl.language", NULL);
+    return PyCapsule_New(tree_sitter_sosl(), "tree_sitter.Language", NULL);
 }
 
 static PyObject *_binding_language_sflog(PyObject *Py_UNUSED(self), PyObject *Py_UNUSED(args)) {
-    return PyCapsule_New(tree_sitter_sflog(), "tree_sitter_sflog.language", NULL);
+    return PyCapsule_New(tree_sitter_sflog(), "tree_sitter.Language", NULL);
 }
 
 static PyMethodDef methods[] = {

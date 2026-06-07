@@ -7,12 +7,11 @@ name = "tree-sitter-sfapex"
 version = "0.1.0"
 description = "Salesforce Apex (+ SOQL, SOSL, SFLog) grammar for tree-sitter — Python bindings"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 requires-python = ">=3.8"
 dependencies = ["tree-sitter>=0.23.0"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Topic :: Software Development :: Compilers",
 ]
 
